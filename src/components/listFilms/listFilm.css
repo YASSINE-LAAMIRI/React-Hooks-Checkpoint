@@ -1,0 +1,6 @@
+.listF{
+    display: flex;
+    justify-content: space-around;
+    /* retour à la ligne */
+    flex-wrap: wrap;
+    }
