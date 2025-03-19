@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Flex, Rate } from 'antd';
 //tableau
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];

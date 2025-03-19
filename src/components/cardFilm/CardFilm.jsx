@@ -11,22 +11,28 @@ const CardFilm = ({films}) => {
       <Card.Img variant="top" src={films.posterURL} />
       <Card.Body>
         <Card.Title>{films.titre}</Card.Title>
-        <Card.Text className="description">
+        <Card.Text>
         <Rating isRating={false} rate={films.rate} className="rate"/>
          {/* {films.description} */}
         </Card.Text>
 
         {/* naviguer vers description du film  */}
+        <div className="d-flex justify-content-center gap-3 mt-3">
         <Link to={`/description/${films.id}`}>
-
-        <Button variant="primary">Détail du Film</Button>
+        
+      
+        <Button variant="primary" >Détail du Film</Button>
+        
         
         </Link>
-{/* trailer */}
+          {/* trailer */}
         <Link to={`/trailer/${films.id}`}>
-        <Button variant="primary">Trailer</Button>
+        
+        <Button  variant="primary">Trailer</Button>
+        
+       
         </Link>
-
+</div>
       </Card.Body>
 
     </Card>

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { moviesData } from '../moviesData'
+import './trailer/trailer.css'
 import { Button } from 'react-bootstrap'
-import "."
+
 const Trailer = () => {
 
   const params = useParams()
@@ -18,12 +19,14 @@ const navigate =useNavigate();
  
     
 
-    <div  className='container'>
-      <h3 style={{textAlign:"center"}}>Bande d'annonce</h3>
-      <h1>{film.titre}</h1>
-      <iframe src={film.trailer} title={film.titre}></iframe>  
-
-<Button onClick={()=>navigate("/")}>Retour</Button>
+    <div className='trailer' >
+      <h3 style={{textAlign:"center", color:"red"}}>Bande Annonce</h3>
+      {/* <h1>{film.titre}</h1> */}
+     
+      <iframe  allowFullScreen  width="1000" height="400" src={film.trailer} title={film.titre}    ></iframe>  
+     
+<br />
+<Button  className="d-block mx-auto" variant="danger" size="lg"  onClick={()=>navigate("/")}>Retour</Button>
     </div>
     
   )

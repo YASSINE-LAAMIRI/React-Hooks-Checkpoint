@@ -6,7 +6,7 @@
         description: "Un voleur expérimenté entre dans les rêves des autres pour voler des secrets.",
         posterURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSst4d8lj72xNuuGSbj7e_UVZi2lQ86RC2FqQ&s",
         rate: 3,
-        trailerURL: "https://www.youtube.com/watch?v=YoHD9XEInc0"
+        trailer: "https://www.youtube.com/embed/HcoZbHBDHQA?si=Mk_WbAPZ2ImS15Wf"
       },
       {
         id: 1,
@@ -14,7 +14,7 @@
         description: "Batman affronte le Joker, un criminel anarchiste semant le chaos à Gotham.",
         posterURL: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
         rate: 5,
-        trailer: "https://www.youtube.com/watch?v=YoHD9XEInc0"
+        trailer: "https://www.youtube.com/embed/UMgb3hQCb08?si=3mYVWKM6SM17hqJO"
       },
       {
         id: 2,
@@ -22,7 +22,7 @@
         description: "Un groupe d'explorateurs voyage à travers un trou de ver à la recherche d'une nouvelle planète habitable.",
         posterURL: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
         rate: 4,
-        trailer: "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+        trailer: "https://www.youtube.com/embed/UDVtMYqUAyw?si=kT5pK6bRx0s_95rZ"
       },
       {
         id: 3,
@@ -30,7 +30,7 @@
         description: "Un programmeur découvre que la réalité dans laquelle il vit est une simulation.",
         posterURL: "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
         rate: 5,
-        trailer: "https://www.youtube.com/watch?v=vKQi3bBA1y8"
+        trailer: "https://www.youtube.com/embed/vKQi3bBA1y8?si=jCIB71snM5eat2js"
       },
       {
         id: 4,

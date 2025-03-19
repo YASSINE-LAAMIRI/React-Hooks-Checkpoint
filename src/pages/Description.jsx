@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { moviesData } from '../moviesData'
 import { Button } from 'react-bootstrap'
+import './trailer/trailer.css'
+import'../pages/trailer/description.css'
 
 const Description = () => {
 // useParams recupurer ce qu'il ya dans URL
@@ -22,15 +24,24 @@ setFilm(moviesData.find(el => el.id ===
 
 const navigate =useNavigate();
   return (
-    <div className='container' >
-      <h1>{film.titre}</h1>
+    <div className='description' >
+      <div className='img_titre' >
+      {/* <h1>{film.titre}</h1> */}
+      <img width={300}  src={film.posterURL} alt={film.titre} />
+      
+      <div className='des'>
       <h3>Description</h3>
-      <p>{film.description}</p>  
-        
+      
+      <p >{film.description}</p> 
+      <h5 style={{color:"gold"} }>Rate: {film.rate}/5</h5>
+      <br />
+      <Button onClick={()=>navigate("/")}>Retour</Button> 
+      </div>
+      </div>
 {/* permer de naviguer vers page Home */}
+</div>
 
-<Button onClick={()=>navigate("/")}>Retour</Button>
-    </div>
+    
   )
 }
 
